@@ -1,6 +1,6 @@
 package main.java.DesignPatterns.strategy;
 
-public class TestStrategy {
+public class StrategyTest {
     public static void main(String[] args) {
         System.out.println("--- 1. Decoy Duck ---");
         DecoyDuck decoyDuck = new DecoyDuck();

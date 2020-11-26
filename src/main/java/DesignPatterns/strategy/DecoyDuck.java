@@ -6,7 +6,7 @@ public class DecoyDuck extends Duck {
         setQuackBehavior(new MuteQuack());
     }
 
-    protected void disply() {
+    public void disply() {
         System.out.println("I'm a duck decoy");
     }
 }

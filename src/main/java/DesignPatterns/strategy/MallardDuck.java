@@ -6,7 +6,7 @@ public class MallardDuck extends Duck {
         setQuackBehavior(new Quack());
     }
 
-    protected void disply() {
+    public void disply() {
         System.out.println("I'm a mallard duck");
     }
 }

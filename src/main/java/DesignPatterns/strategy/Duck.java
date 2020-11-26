@@ -7,25 +7,25 @@ public abstract class Duck {
     public Duck() {
     };
 
-    protected void swim() {
+    public void swim() {
         System.out.println("All ducks can swim");
     }
 
-    protected abstract void disply();
+    public abstract void disply();
 
-    protected void performQuack() {
+    public void performQuack() {
         quackBehavior.quack();
     }
 
-    protected void performFly() {
+    public void performFly() {
         flyBehavior.fly();
     }
 
-    protected void setFlyBehavior(FlyBehavior flyBehavior) {
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
         this.flyBehavior = flyBehavior;
     }
 
-    protected void setQuackBehavior(QuackBehavior quackBehavior) {
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
         this.quackBehavior = quackBehavior;
     }
 }
