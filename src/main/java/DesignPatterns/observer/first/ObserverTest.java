@@ -1,6 +1,6 @@
-package main.java.DesignPatterns.observer.second;
+package main.java.DesignPatterns.observer.first;
 
-public class WeatherStation {
+public class ObserverTest {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
         TemperatureDisplay temperatureDisplay = new TemperatureDisplay(weatherData);
@@ -8,10 +8,10 @@ public class WeatherStation {
         PressureDisplay pressureDisplay = new PressureDisplay(weatherData);
 
         System.out.println("1.");
-        weatherData.setMeasurements(70, 55, 20.4f);
+        weatherData.setMeasurements(80, 65, 30.4f);
         System.out.println("2.");
-        weatherData.setMeasurements(72, 60, 19.2f);
+        weatherData.setMeasurements(82, 70, 29.2f);
         System.out.println("3.");
-        weatherData.setMeasurements(68, 80, 19.2f);
+        weatherData.setMeasurements(78, 90, 29.2f);
     }
 }
