@@ -5,7 +5,7 @@ public class HouseBlend extends Beverage {
         description = "House Blend Coffee";
     };
 
-    protected double cost() {
+    public double cost() {
         return .89;
     }
 }

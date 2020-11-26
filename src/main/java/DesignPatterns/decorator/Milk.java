@@ -8,12 +8,12 @@ public class Milk extends CondimentDecorator {
     };
 
     @Override
-    protected String getDescription() {
+    public String getDescription() {
         return beverage.getDescription() + ", Milk";
     }
 
     @Override
-    protected double cost() {
+    public double cost() {
         return beverage.cost() + .10;
     }
 }
