@@ -4,3 +4,4 @@
 - [The Observer Pattern](./src/main/java/DesignPatterns/observer/)
 - [The Decorator Pattern](./src/main/java/DesignPatterns/decorator/)
 - [The Factory Pattern](./src/main/java/DesignPatterns/factory/)
+- [The Singleton Pattern](./src/main/java/DesignPatterns/singleton/)
