@@ -7,3 +7,4 @@
 - [The Singleton Pattern](./src/main/java/DesignPatterns/singleton/)
 - [The Command Pattern](./src/main/java/DesignPatterns/command/)
 - [The Adapter Pattern](./src/main/java/DesignPatterns/adapter/)
+- [The Facade Pattern](./src/main/java/DesignPatterns/facade/)
