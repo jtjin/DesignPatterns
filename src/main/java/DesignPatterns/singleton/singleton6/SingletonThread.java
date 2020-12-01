@@ -12,9 +12,9 @@ public class SingletonThread extends Thread {
         Singleton6 singleton6 = Singleton6.INSTANCE;
         singleton6.addValue(50);
         try {
-			Thread.sleep(1000);
-		} catch (Exception e) {
-		}
+            Thread.sleep(1000);
+        } catch (Exception e) {
+        }
         System.out.println("Thread " + number + " : " + singleton6.getValue());
     }
 }

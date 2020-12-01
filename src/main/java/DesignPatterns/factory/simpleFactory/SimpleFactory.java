@@ -4,13 +4,13 @@ public class SimpleFactory {
     private Pizza pizza = null;
 
     public Pizza createPizza(String type) {
-        switch(type) {
+        switch (type) {
             case "cheese":
-            pizza = new CheesePizza();
-            break;
+                pizza = new CheesePizza();
+                break;
             case "pepperoni":
-            pizza = new PepperoniPizza();
-            break;
+                pizza = new PepperoniPizza();
+                break;
         }
         return pizza;
     }

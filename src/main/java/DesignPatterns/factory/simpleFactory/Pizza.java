@@ -6,7 +6,7 @@ public abstract class Pizza {
     public String getName() {
         return name;
     }
-    
+
     public void prepare() {
         System.out.println("Preparing " + name);
     }
