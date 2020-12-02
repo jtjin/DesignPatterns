@@ -8,3 +8,4 @@
 - [The Command Pattern](./src/main/java/DesignPatterns/command/)
 - [The Adapter Pattern](./src/main/java/DesignPatterns/adapter/)
 - [The Facade Pattern](./src/main/java/DesignPatterns/facade/)
+- [The Template Pattern](./src/main/java/DesignPatterns/template/)
