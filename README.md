@@ -11,3 +11,4 @@
 - [The Template Pattern](./src/main/java/DesignPatterns/template/)
 - [The Iterator Pattern](./src/main/java/DesignPatterns/iterator/)
 - [The Composite Pattern](./src/main/java/DesignPatterns/composite/)
+- [The State Pattern](./src/main/java/DesignPatterns/state/)
